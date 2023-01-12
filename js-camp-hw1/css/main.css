@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&family=Noto+Sans+Georgian&display=swap");
+@import url("https://fonts.cdnfonts.com/css/georgia-2");
+
+:root {
+	--button-color: #01996d;
+	--heading-color: #01996d;
+	--hover-color: #01996d;
+	--common-color: #fff;
+	--section-color: #245852;
+	--footer-color: #245852;
+	--common-text-color: #484848;
+	--numbers-color: #01996d33;
+	--common-fonts: "Lato", sans-serif;
+	--main-headings-fonts: "Noto Serif Georgian", serif;
+	--numbers-fonts: "Georgia", sans-serif;
+	--logo-text-fonts: "Montserrat", sans-serif;
+}
+
+/* help selectors */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: var(--common-text-color);
+	font-family: var(--common-fonts);
+	line-height: 1.55;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+button {
+	cursor: pointer;
+}
